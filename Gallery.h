@@ -2,11 +2,11 @@
 #define GALLERY_H
 #include <vector>
 #include <string>
+#include <iostream>
 #include "IDirectionable.h"
 
 using std::vector;
 using std::string;
-
 struct Emoticon
 {
   string display="";
