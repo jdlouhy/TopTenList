@@ -12,6 +12,7 @@ using std::cout;
 using std::endl;
 class TopTenList : public IDirectionable
 {
+       //pure virtual this functions display_forward and display_backward MUST be implemented.
 	private:
 		vector<Hyperlink> _list;
 	public:

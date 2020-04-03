@@ -9,7 +9,7 @@ TopTenList::TopTenList()
 {
 	_list.resize(10); 
 }
-
+//0 to 9
 void TopTenList::set_at(int index, Hyperlink link)
 {
 	_list[index-1] = link;
