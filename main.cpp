@@ -9,7 +9,7 @@ using std::cout;
 int main()
 {
     TopTenList* languages = new TopTenList();
-    Gallery* emoticons = new Gallery();
+   // Gallery* emoticons = new Gallery();
     Hyperlink cpp;
 
     cpp.text = "C++";
@@ -43,11 +43,11 @@ int main()
     cpp.url = "https://dart.dev/";
     languages->set_at(10, cpp);
 
-    emoticons->add(":)","Smile");
-    emoticons->add(":(","Frown");
-    emoticons->add(":()","Monkey");
+   // emoticons->add(":)","Smile");
+   // emoticons->add(":(","Frown");
+  //  emoticons->add(":()","Monkey");
 
-    emoticons->display_backward();
+//    emoticons->display_backward();
     languages->display_forward();
 
 
